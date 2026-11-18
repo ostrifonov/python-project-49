@@ -24,6 +24,9 @@ cd python-project-49
 
 <!-- Добавьте примеры запуска и запись asciinema — именно это смотрит работодатель -->
 
+brain-even game demo:
+[![asciicast](https://asciinema.org/a/YBMueBSaIEr3Zldn.svg)](https://asciinema.org/a/YBMueBSaIEr3Zldn)
+
 ---
 
 <details>
