@@ -9,7 +9,7 @@ MAX_RANGE_VALUE = 100
 ROUNDS = 3
 
 
-def game(name):
+def game_even(name):
 
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
