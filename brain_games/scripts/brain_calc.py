@@ -1,10 +1,8 @@
-from brain_games.cli import welcome_user
-from brain_games.games.game_calc import game_calc
+from brain_games.games.game_logic import game_logic
 
 
 def main():
-    name = welcome_user()
-    game_calc(name)
+    game_logic("game_calc")
 
 
 if __name__ == "__main__":

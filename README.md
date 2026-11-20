@@ -27,6 +27,9 @@ cd python-project-49
 brain-even game demo:
 [![asciicast](https://asciinema.org/a/YBMueBSaIEr3Zldn.svg)](https://asciinema.org/a/YBMueBSaIEr3Zldn)
 
+brain-calc game demo:
+[![asciicast](https://asciinema.org/a/f5yCEyn6PK0FrTQq.svg)](https://asciinema.org/a/f5yCEyn6PK0FrTQq)
+
 ---
 
 <details>
