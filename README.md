@@ -30,8 +30,11 @@ brain-even game demo:
 brain-calc game demo:
 [![asciicast](https://asciinema.org/a/f5yCEyn6PK0FrTQq.svg)](https://asciinema.org/a/f5yCEyn6PK0FrTQq)
 
-brain-gcdgame demo:
-[![asciicast](https://asciinema.org/a/XvUhjlsLJeUOOr2O.svg)](https://asciinema.org/a/XvUhjlsLJeUOOr2O)
+brain-gcd game demo:
+[![asciicast](https://asciinema.org/a/X4gB6tr3oxmM5Ra9.svg)](https://asciinema.org/a/X4gB6tr3oxmM5Ra9)
+
+brain-progression game demo:
+[![asciicast](https://asciinema.org/a/vSeJKxCwhqd5zSBo.svg)](https://asciinema.org/a/vSeJKxCwhqd5zSBo)
 
 ---
 
