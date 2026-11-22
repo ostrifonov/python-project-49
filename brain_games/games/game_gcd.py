@@ -4,6 +4,7 @@ import prompt
 
 from brain_games.games.calculate_gcd import calculate_gcd
 
+
 def game_gcd(name: str, min_range_value: int, max_range_value: int):
     
     a = randint(min_range_value, max_range_value)

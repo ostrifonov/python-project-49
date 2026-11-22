@@ -1,8 +1,9 @@
-import prompt
-
 from random import randint
 
+import prompt
+
 from brain_games.games.is_prime import is_prime
+
 
 def game_prime(name: str, min_range_value: int, max_range_value: int):
 
@@ -15,6 +16,8 @@ def game_prime(name: str, min_range_value: int, max_range_value: int):
         print("Correct!")
         return True
     else:
-        print(f"""'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.
-Let's try again, {name}!""")
+        print(f"'{answer}' is wrong answer ;(. " 
+              f"Correct answer was '{correct_answer}'."
+              )
+        print(f"Let's try again, {name}!")
         return False

@@ -4,6 +4,9 @@ clean:
 lint:
 	uv run ruff check brain_games
 
+lint-fix:
+	uv run ruff check --fix brain_games
+
 install:
 	uv sync
 
