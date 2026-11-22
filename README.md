@@ -36,6 +36,8 @@ brain-gcd game demo:
 brain-progression game demo:
 [![asciicast](https://asciinema.org/a/vSeJKxCwhqd5zSBo.svg)](https://asciinema.org/a/vSeJKxCwhqd5zSBo)
 
+brain-prime game demo:
+[![asciicast](https://asciinema.org/a/apLzRmTyCblfLJLn.svg)](https://asciinema.org/a/apLzRmTyCblfLJLn)
 ---
 
 <details>

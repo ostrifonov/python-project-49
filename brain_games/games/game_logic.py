@@ -3,6 +3,7 @@ from brain_games.games.game_calc import game_calc
 from brain_games.games.game_even import game_even
 from brain_games.games.game_gcd import game_gcd
 from brain_games.games.game_progression import game_progression
+from brain_games.games.game_prime import game_prime
 
 
 MIN_RANGE_VALUE = 1
@@ -11,7 +12,8 @@ ROUNDS = 3
 GAME_RULES = {"game_even": "Answer \"yes\" if the number is even, otherwise answer \"no\".",
          "game_calc": "What is the result of the expression?",
          "game_gcd": "Find the greatest common divisor of given numbers",
-         "game_progression": "What number is missing in the progression?"}
+         "game_progression": "What number is missing in the progression?",
+         "game_prime": "Answer \"yes\" if given number is prime. Otherwise answer \"no\"."}
 
 
 def game_logic(game_name: str):
@@ -43,9 +45,11 @@ def game_logic(game_name: str):
                 end_flag = game_progression(name, MIN_RANGE_VALUE, MAX_RANGE_VALUE)
                 if not end_flag:
                     return
-            
-            case _:
-                print("This game doesn't exist")
-                return
+
+            case "game_prime":
+                print(GAME_RULES["game_prime"])
+                end_flag = game_prime(name, MIN_RANGE_VALUE + 1, MAX_RANGE_VALUE)
+                if not end_flag:
+                    return
     
     print(f"Congratulations, {name}!")
