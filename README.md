@@ -30,6 +30,9 @@ brain-even game demo:
 brain-calc game demo:
 [![asciicast](https://asciinema.org/a/f5yCEyn6PK0FrTQq.svg)](https://asciinema.org/a/f5yCEyn6PK0FrTQq)
 
+brain-gcdgame demo:
+[![asciicast](https://asciinema.org/a/XvUhjlsLJeUOOr2O.svg)](https://asciinema.org/a/XvUhjlsLJeUOOr2O)
+
 ---
 
 <details>
