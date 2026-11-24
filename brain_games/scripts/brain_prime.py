@@ -1,8 +1,13 @@
+from brain_games.cli import welcome_user
 from brain_games.games.game_logic import game_logic
 
 
 def main():
-    game_logic("game_prime")
+
+    name = welcome_user()
+
+    if game_logic(name, "game_prime"):
+        print(f"Congratulations, {name}!")
 
 
 if __name__ == "__main__":
