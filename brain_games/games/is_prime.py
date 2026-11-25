@@ -4,7 +4,7 @@ from math import sqrt
 def is_prime(a: int) -> bool:
 
     if a < 2:
-        return None
+        return False
 
     is_prime = True
 
