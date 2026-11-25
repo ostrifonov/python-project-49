@@ -4,6 +4,8 @@ import prompt
 
 from brain_games.games.is_prime import is_prime
 
+RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+
 
 def game_prime(name: str, min_range_value: int, max_range_value: int):
 
@@ -16,8 +18,9 @@ def game_prime(name: str, min_range_value: int, max_range_value: int):
         print("Correct!")
         return True
     else:
-        print(f"'{answer}' is wrong answer ;(. " 
-              f"Correct answer was '{correct_answer}'."
-              )
+        print(
+            f"'{answer}' is wrong answer ;(. "
+            f"Correct answer was '{correct_answer}'."
+        )
         print(f"Let's try again, {name}!")
         return False

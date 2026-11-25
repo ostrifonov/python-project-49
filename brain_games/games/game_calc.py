@@ -3,6 +3,7 @@ from random import choice, randint
 import prompt
 
 SIGN = ["+", "-", "*"]
+RULE = "What is the result of the expression?"
 
 
 def game_calc(name: str, min_range_value: int, max_range_value: int):

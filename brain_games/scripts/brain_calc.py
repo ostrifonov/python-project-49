@@ -1,8 +1,6 @@
 from brain_games.cli import welcome_user
-from brain_games.games.game_calc import game_calc
+from brain_games.games.game_calc import RULE, game_calc
 from brain_games.games.game_logic import game_logic
-
-RULE = "What is the result of the expression?"
 
 
 def main():

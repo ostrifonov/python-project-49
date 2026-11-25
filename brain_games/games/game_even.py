@@ -4,6 +4,8 @@ import prompt
 
 from brain_games.games.is_even import is_even
 
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def game_even(name: str, min_range_value: int, max_range_value: int):
     number = randint(min_range_value, max_range_value)
@@ -14,8 +16,9 @@ def game_even(name: str, min_range_value: int, max_range_value: int):
         print("Correct!")
         return True
     else:
-        print(f"'{answer}' is wrong answer ;(. "
-              f"Correct answer was '{correct_answer}'. "
+        print(
+            f"'{answer}' is wrong answer ;(. "
+            f"Correct answer was '{correct_answer}'. "
         )
         print(f"Let's try again, {name}!")
         return False

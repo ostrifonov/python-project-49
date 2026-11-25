@@ -1,8 +1,6 @@
 from brain_games.cli import welcome_user
-from brain_games.games.game_progression import game_progression
 from brain_games.games.game_logic import game_logic
-
-RULE = "What number is missing in the progression?"
+from brain_games.games.game_progression import RULE, game_progression
 
 
 def main():

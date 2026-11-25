@@ -1,8 +1,6 @@
 from brain_games.cli import welcome_user
-from brain_games.games.game_gcd import game_gcd
+from brain_games.games.game_gcd import RULE, game_gcd
 from brain_games.games.game_logic import game_logic
-
-RULE = "Find the greatest common divisor of given numbers."
 
 
 def main():
